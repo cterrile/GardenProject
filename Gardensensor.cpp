@@ -18,6 +18,7 @@ Gardensensor::Gardensensor(int ld1, int ld2, int ld3, int snsr)
 
 void Gardensensor::checkStatus(int input)
 {
+    }
 	if (input>= 550)
   	{
 	    digitalWrite(led1, HIGH);
