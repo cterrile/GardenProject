@@ -13,12 +13,12 @@ Gardensensor::Gardensensor(int ld1, int ld2, int ld3, int snsr)
 	pinMode(led3, OUTPUT);
 	
 	sensor = snsr;
-} 	
+}; 	
 
 
 void Gardensensor::checkStatus(int input)
 {
-    }
+   
 	if (input>= 550)
   	{
 	    digitalWrite(led1, HIGH);
